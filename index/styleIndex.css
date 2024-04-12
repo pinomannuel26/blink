@@ -130,8 +130,76 @@
     border-radius: 300px 0px 0px 0px;
     display: flex;
     padding-left: 50px;
+    justify-content: space-between;
 }
 
-.libro{
-    height: 80%;
+.containerRight{
+    width: 70%;
 }
+
+.title{
+    color:#EC6D0C ;
+    font-size: 90px;
+    font-weight: 550;
+}
+
+.logo3{
+
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+}
+.containerLibros{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.containerDestacados{
+    width: 80%;
+    margin-top: 20px;   
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.destacadosTitle{
+    font-size: 15px;
+    color: #EC6D0C;
+}
+
+.destacadosImg{
+    width: 25px;
+}
+
+.containerRecientes{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.containRecinetes{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+}
+.containerBooks{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+}
+
+.containBooks{
+    width: 80%;
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+}
+
+.formaBooks{
+    margin-top: 10px;
+    border-radius: 10px;
+    height: 300px;
+}
+
+
