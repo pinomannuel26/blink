@@ -1,0 +1,137 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  .header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 68px;
+  padding: 0 24px;
+  background-color:#EE7C48;
+}
+
+.header__navigation {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.header__logo{
+    width: 100px;
+}
+
+.navbar {
+    width: 400px;
+}
+.navbar__items {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+  
+.navbar__link {
+    text-decoration: none;
+    color: hsl(219, 9%, 45%);
+    display: block;
+    height: 112px;
+    padding-top: 42px;
+}
+  
+.navbar__link:hover {
+    border-bottom: 4px solid hsl(26, 100%, 55%);
+    font-weight: bold;
+    color: hsl(26, 100%, 55%);
+}
+
+.buscarMain{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.Buscador{
+    display: flex;
+    width: 80%;
+    margin-top: 15px;
+    justify-content: space-between;
+}
+
+.btns{
+    width: 250px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.btnEspañol{
+    border: none;
+    border-radius: 15px;
+    width: 100px;
+    height: 30px;
+    background-color: #F39744;
+    color: white;
+    font-weight: bold;
+    
+}
+
+.btnIngles{
+    border: none;
+    border-radius: 15px;
+    width: 100px;
+    height: 30px;
+    background-color: #C5C5C5;
+    color: white;
+    font-weight: bold;
+}
+
+.buscar{
+    display: flex;
+    align-items: center;
+    background-color: #C5C5C5;
+    border-radius: 10px;
+    width: 80%;
+
+}
+
+.imgLupa{
+    width: 25px;
+    padding-left: 5px;
+}
+
+.inputBuscar{
+    background-color: #C5C5C5;
+    border: none;  
+    width: 95%; 
+    height: 100%; 
+    outline: none;
+    padding-left: 5px;
+}
+
+.container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.literaturaEscritura{
+    width: 80%;
+    
+}
+
+.rectangulo{
+    width: 100%;
+    height: 300px;
+    margin-top: 25px;
+    background-color: #F8C18B;
+    border-radius: 300px 0px 0px 0px;
+    display: flex;
+    padding-left: 50px;
+}
+
+.libro{
+    height: 80%;
+}
