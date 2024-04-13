@@ -43,11 +43,7 @@
     padding-top: 42px;
 }
   
-.navbar__link:hover {
-    border-bottom: 4px solid hsl(26, 100%, 55%);
-    font-weight: bold;
-    color: hsl(26, 100%, 55%);
-}
+
 
 .buscarMain{
     width: 100%;
@@ -176,6 +172,7 @@
     width: 100%;
     display: flex;
     justify-content: center;
+    margin-top: 10px;
 }
 
 .containRecinetes{
@@ -202,4 +199,19 @@
     height: 300px;
 }
 
+/*Reciente*/
+.CardsTitles{
+    width: 85%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 
+.titleCard{
+    font-weight: 100;
+}
+
+.subTitleCard{
+    font-weight: 100;
+    color: #EC6D0C;
+}
