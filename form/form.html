@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Index</title>
+    <link rel="stylesheet" href="styleForm.css">
+</head>
+<body>
+    <header class="header">
+        <div class="header__navigation">
+          <img class="header__logo" src="../Imagenes/Logo.png" alt="logo">
+       
+          <nav class="navbar">
+            <ul class="navbar__items">
+                <li><a class="navbar__link" href="index.html">Escribir</a></li>
+                <li><a class="navbar__link" href="form.html">Leer</a></li>
+            </ul>
+          </nav>
+       
+        </div>
+      </header>
+      <main >
+        <div class="container">
+            <form action="" class="container_form">
+                <div class="form1">
+                    <label for="title">Titulo:</label>
+                    <input type="text" name="title" id="title" placeholder="Nombre de tu historia">
+                </div>
+                <div class="form1">
+                    <label for="description">Descripcion:</label>
+                    <textarea  name="description" id="description" placeholder="Descripcion breve o resumen"></textarea> 
+                </div>
+                <hr>
+                <div class="form1">
+                    <label for="">Personajes Principales</label>
+                    <div class="container_inputAndButton">
+                        <input type="text" name="personajes" id="personajes" placeholder="Nombre">
+                        <button>+</button>
+                    </div>
+                </div>
+                <hr>
+                <div class="form2">
+                    <label for="category">Categoria</label>
+                    <select>
+                        <option value="" disabled selected hidden>Selecciona una categoria</option>
+                        <option value="Romance">Romance</option>
+                        <option value="Ciencia ficción">Ciencia ficción</option>
+                        <option value="Fantasía">Fantasía</option>
+                        <option value="Misterio">Misterio</option>
+                        <option value="Suspenso">Suspenso</option>
+                        <option value="Aventura">Aventura</option>
+                        <option value="Terror">Terror</option>
+                        <option value="Otra">Otra</option>
+                      </select>
+                </div>
+                <hr>
+                <div class="form1">
+                    <label for="tags">Etiquetas</label>
+                    <input class="etiquetas" type="text" placeholder="Agregar una etiqueta">
+                </div >
+                <hr>
+                <div class="form2">
+                    <label for="">Audiencia Principal</label>
+                    <select>
+                        <option value="" disabled selected hidden>Audiencia esperada</option>
+                        <option value="Niños">Niños</option>
+                        <option value="Adolecentes">Adolecentes</option>
+                        <option value="Adutltos">Adutltos</option>
+                      </select>
+                </div>
+                <hr>
+                <div class="form2">
+                    <label for="">Idioma</label>
+                    <select>
+                        <option value="Español">Español</option>
+                        <option value="Ingles">Ingles</option>
+                        <option value="Frances">Frances</option>
+                      </select>
+                </div>
+                <hr>
+                <div class="form2">
+                    <label for="">Derechos de Autor</label>
+                    <select placehol>
+                        <option value="opcion1">Todos los derechos reservados</option>
+                        <option value="opcion2">Creative commons </option>
+                        <option value="opcion3">Dominio Publico</option>
+                      </select>
+                </div>
+            </form>
+        </div>
+        <div class="container_img">
+            <label for="input-imagen" class="input-file-label">
+                <img src="../Imagenes/imageAdd.png" alt="">
+                Añadir Foto de portada
+                <input type="file" id="input-imagen" class="input-file">
+            </label>
+        </div>
+      </main>
+</body>
+</html>
