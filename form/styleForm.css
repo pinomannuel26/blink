@@ -32,27 +32,25 @@
 .navbar__items {
     list-style: none;
     display: flex;
+    flex-direction: row;
     justify-content: space-between;
+    align-items: center;
 }
   
 .navbar__link {
     text-decoration: none;
-    color: hsl(219, 9%, 45%);
-    display: block;
-    height: 112px;
-    padding-top: 42px;
+    color: hsl(0, 0%, 100%);
 }
-  
+
 .navbar__link:hover {
-    border-bottom: 4px solid hsl(26, 100%, 55%);
-    font-weight: bold;
-    color: hsl(26, 100%, 55%);
+    color: hsl(0, 3%, 49%);
 }
 main{
     display: flex;
     flex-direction: row;
     width: 100%;
     justify-content: center;
+    gap: 20px;
 }
 
 .container{
@@ -71,7 +69,7 @@ main{
     flex-direction: column;
     justify-content: center;
     align-items: start;
-    border: 1px inset black;
+    border: 1px solid #ccc;
     width: 100%;
     color: hsl(26, 100%, 55%);
     font-size: 20px;
@@ -80,6 +78,7 @@ main{
     -webkit-box-shadow: 14px 9px 8px -2px rgba(0,0,0,0.42);
     -moz-box-shadow: 14px 9px 8px -2px rgba(0,0,0,0.42);
     box-shadow: 14px 9px 8px -2px rgba(0,0,0,0.42);
+    border-radius: 10px;
 }
 
 .form1{
@@ -108,6 +107,7 @@ input{
     padding-left: 10px;
     border: 1px solid #ccc;
     border-radius: 10px;
+    border-bottom: 4px solid #ccc;
     background-color: white; /* Cambia el color de fondo del input */
 
 }
@@ -123,6 +123,7 @@ textarea{
     margin: 12px 0;
     padding-left: 10px;
     border-radius: 10px;
+    border-bottom: 4px solid #ccc;
     border: 1px solid #ccc;
 }
 
@@ -144,7 +145,7 @@ select{
     border-radius: 5px;
     background-image: url('../Imagenes/down-arrow-circle-svgrepo-com.svg');
     color: #DADADA;
-
+    border-bottom: 4px solid #ccc;
 }
 
 hr{
@@ -175,7 +176,7 @@ hr{
 
   .etiquetas{
     display: flex;
-    width: 40%;
+    width: 30%;
     border-radius: 15px;
   }
 
@@ -183,7 +184,6 @@ hr{
     display: inline-block;
     width: 300px;
     height: 400px;
-    border: 2px solid #999;
     text-align: center;
     background-color: #D9D9D9;
     cursor: pointer;
@@ -191,8 +191,30 @@ hr{
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    color: #ADADAD;
   }
   
   .input-file {
     display: none;
+  }
+  .buttonMore{
+    width: 100px;
+    padding: 8px;
+    margin: 10px 0;
+    padding-left: 10px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: #EE7C48;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  .clasificacion{
+    width: 50%;
+  }
+
+  .text1{
+    color: #DADADA;
+    font-size: 12px;
   }

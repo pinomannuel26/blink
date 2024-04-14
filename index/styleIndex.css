@@ -32,17 +32,19 @@
 .navbar__items {
     list-style: none;
     display: flex;
+    flex-direction: row;
     justify-content: space-between;
+    align-items: center;
 }
   
 .navbar__link {
     text-decoration: none;
-    color: hsl(219, 9%, 45%);
-    display: block;
-    height: 112px;
-    padding-top: 42px;
+    color: hsl(0, 0%, 100%);
 }
-  
+
+.navbar__link:hover {
+    color: hsl(0, 3%, 49%);
+}
 
 
 .buscarMain{
