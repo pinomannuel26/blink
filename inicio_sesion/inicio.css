@@ -134,3 +134,14 @@ a, p{
     color: #8E4D00;
     text-decoration: underline;
 }
+
+.register:hover{
+    color: #F39744;
+    cursor: pointer;
+}
+
+.btnInicio:hover{
+    background-color: #EE7C48;
+    color: white;
+    cursor: pointer;
+}

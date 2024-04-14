@@ -29,22 +29,33 @@
 .navbar {
     width: 400px;
 }
-.navbar__items {
+.navbar {
+    width: 100%; /* Cambiar a 100% para que el menú ocupe todo el ancho */
+    background-color: #EE7C48; /* Añadir color de fondo */
+    padding: 10px; /* Añadir espaciado alrededor del menú */
+  }
+  
+  .navbar__items {
     list-style: none;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-around; /* Cambiar a 'space-around' para un mejor espaciado */
     align-items: center;
-}
+    margin: 0; /* Eliminar el margen predeterminado del navegador */
+  }
   
-.navbar__link {
+  .navbar__link {
     text-decoration: none;
-    color: hsl(0, 0%, 100%);
-}
-
-.navbar__link:hover {
-    color: hsl(0, 3%, 49%);
-}
+    color: #fff; /* Color de texto blanco */
+    padding: 8px 16px; /* Añadir relleno a los enlaces */
+    border-radius: 5px; /* Añadir bordes redondeados */
+    transition: background-color 0.3s; /* Agregar transición para un cambio suave */
+  }
+  
+  .navbar__link:hover {
+    background-color: #fff; /* Cambiar el color de fondo al pasar el cursor */
+    color: #EE7C48; /* Cambiar el color del texto al pasar el cursor */
+  }
 main{
     display: flex;
     flex-direction: column;
