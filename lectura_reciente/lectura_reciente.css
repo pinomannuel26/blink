@@ -1,0 +1,98 @@
+.navbar_inicio {
+    width: 270px;
+}
+.navbar__button{
+    background-color: transparent;
+    outline: none;
+    border: solid 2px white;
+    border-radius: 20px;
+    padding: 5px 20px;
+    color: white;
+    cursor: pointer;
+    display: block;
+    text-decoration: none;
+}
+
+.select {
+    background-color: white !important;
+    color: #F39744 !important;
+}
+
+.navbar__button:hover{
+    background-color: white;
+    color: #F39744;
+}
+
+.body_inicio{
+    margin-inline: 148px;
+    margin-top: 40px;
+}
+
+.titulo{
+    padding: 0 3px;
+    width: 85%;
+}
+h1{
+    text-align: start;
+    color:#EE7C48;
+    margin-bottom: 15px;
+}
+
+.contenedor_info_book{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 339px;
+    padding: 0px 35px;
+    box-shadow: 1px 7px 13px  rgb(203 203 203);
+   
+}
+
+
+.info{
+    margin-left: 24px;
+}
+
+h2{
+    color: #EE7C48;
+    margin-bottom: 20px;
+    font-size: 30px;
+}
+
+p{
+    line-height: 1.3;
+}
+
+input{
+    background-color: #EE7C48;
+    padding: 4px 10px;
+    color: white;
+    margin-bottom: 10px;
+    border-radius: 22px;
+    border: solid thin #EE7C48;
+    margin-top: 20px;
+}
+
+.content-center{
+    display: flex;
+    justify-content: center; /* Centra horizontalmente */
+}
+
+.containerBooks{
+    margin: 50px 20px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+}
+.containBooks{
+    width: 80%;
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+}
+
+.formaBooks{
+    margin-top: 10px;
+    border-radius: 10px;
+    height: 280px;
+}

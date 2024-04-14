@@ -1,0 +1,136 @@
+.body_inicio{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.navbar_inicio {
+    width: 270px;
+}
+.navbar__button{
+    background-color: transparent;
+    outline: none;
+    border: solid 2px white;
+    border-radius: 20px;
+    padding: 5px 20px;
+    color: white;
+    cursor: pointer;
+    display: block;
+    text-decoration: none;
+}
+
+.select {
+    background-color: white !important;
+    color: #F39744 !important;
+}
+
+.navbar__button:hover{
+    background-color: white;
+    color: #F39744;
+}
+.container-form {
+    display: flex;
+    height: 500px;
+    max-width: 900px;
+    /* border: solid thin #F39744; */
+}
+
+.information{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    background-color: #F39744;
+    border-radius: 20px; 
+}
+
+.info-child img{
+    width: 100%;
+    padding: 0px 20px 0px 20px;
+}
+
+
+.form-information{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    text-align: center;
+    background-color: white;
+    border-radius: 20px;
+    border: solid 3px #F39744;
+}
+
+
+.form-information-childs{
+    padding: 0 3px;
+    width: 85%;
+}
+
+
+.form-information-childs h3{
+    color: #F39744;
+    font-size: 1.3rem;
+}
+
+.content_form{
+    border: solid 3px red;
+    background-color: #FFDBA6;
+    border-color: #F39744;
+    border-radius: 20px;
+    margin-top: 43px;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+.form{
+    margin: 20px 30px;
+}
+
+.form label {
+    display: flex;
+    align-items: flex-start;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    color: #F39744;
+    text-align: start;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.form input{
+    color: black;
+    width: 100%;
+    padding: 8px 15px;
+    border-radius: 5px;
+    border: solid 1px #BCB0B0;
+}
+
+.icon{
+    width: 61px;
+    height: auto;
+    margin-top: 6px;
+}
+
+input[type=submit]{
+    background-color: #EE7C48;
+    width: 50%;
+    color: white;
+    border: solid 3px #F8C18B ;
+    margin-bottom: 10px;
+    border-radius: 11px;
+}
+
+input::placeholder{
+    color: #CFCFCF;
+}
+
+
+a, p{
+    text-decoration: none;
+    color: #F39744;
+}
+
+.register{
+    color: #8E4D00;
+    text-decoration: underline;
+}

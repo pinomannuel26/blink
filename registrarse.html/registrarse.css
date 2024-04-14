@@ -1,0 +1,172 @@
+.body_inicio{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.navbar_inicio {
+    width: 270px;
+}
+.navbar__button{
+    background-color: transparent;
+    outline: none;
+    border: solid 2px white;
+    border-radius: 20px;
+    padding: 5px 20px;
+    color: white;
+    cursor: pointer;
+    display: block;
+    text-decoration: none;
+}
+
+.select {
+    background-color: white !important;
+    color: #F39744 !important;
+}
+
+.navbar__button:hover{
+    background-color: white;
+    color: #F39744;
+}
+.container-form {
+    display: flex;
+    height: 500px;
+    max-width: 900px;
+    /* border: solid thin #F39744; */
+}
+
+.information{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    border: solid 3px #F39744;
+    border-radius: 20px; 
+}
+
+.info-child img{
+    width: 100%;
+    padding: 0px 20px 0px 20px;
+}
+
+.form-information{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    text-align: center;
+    background-color: #F39744;
+    border-radius: 20px;
+}
+
+.form-information-childs{
+    padding: 0 3px;
+    width: 85%;
+}
+
+.form-information-childs h3{
+    color: white;
+    font-size: 1.3rem;
+}
+
+.form{
+    margin: 13px 0 0;
+}
+
+.form label {
+    display: flex;
+    align-items: flex-start;
+    margin-top: 5px;
+    margin-bottom: 7px;
+    color: white;
+}
+
+.form input{
+    color: black;
+    width: 100%;
+    padding: 8px 15px;
+    border-radius: 5px;
+    border: solid 1px #BCB0B0;
+}
+
+.cumpleanos {
+    display: flex;
+    justify-content: space-between;
+}
+
+.cumpleanos input{
+    display: block;
+    width: 29%;
+}
+
+.terminos{
+    display: flex;
+    align-items: flex-start;
+    margin-top: 12px;
+}
+
+.terminos input{
+    display: block;
+    width: 4%;
+    margin-top: 5px;
+}
+
+.terminos label {
+    margin-left: 7px;
+    font-size: 12px;
+    text-align: start;
+}
+
+input[type=submit]{
+    background-color: #EE7C48;
+    width: 50%;
+    color: white;
+    border: solid 3px #F8C18B ;
+}
+
+input::placeholder{
+    color: #CFCFCF;
+}
+
+/* Registrarse  */
+
+.information_inicio{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    background-color: #F39744;
+    border-radius: 20px; 
+}
+
+.form-information_inicio{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    text-align: center;
+    background-color: white;
+    border-radius: 20px;
+    border: solid 3px #F39744;
+}
+
+.content_form{
+    border: solid 3px red;
+    background-color: #FFDBA6;
+    border-color: #F39744;
+    border-radius: 20px;
+    margin-top: 55px;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.form_inicio{
+    margin: 13px !important;
+}
+
+.form_inicio label {
+    display: flex;
+    align-items: flex-start;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    color: #F39744;
+}
