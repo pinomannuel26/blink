@@ -1,0 +1,144 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  .header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 68px;
+  padding: 0 24px;
+  background-color:#EE7C48;
+}
+
+.header__navigation {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.header__logo{
+    width: 100px;
+}
+
+.navbar {
+    width: 400px;
+}
+.navbar {
+    width: 100%; /* Cambiar a 100% para que el menú ocupe todo el ancho */
+    background-color: #EE7C48; /* Añadir color de fondo */
+    padding: 10px; /* Añadir espaciado alrededor del menú */
+  }
+  
+  .navbar__items {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around; /* Cambiar a 'space-around' para un mejor espaciado */
+    align-items: center;
+    margin: 0; /* Eliminar el margen predeterminado del navegador */
+  }
+  
+  .navbar__link {
+    text-decoration: none;
+    color: #fff; /* Color de texto blanco */
+    padding: 8px 16px; /* Añadir relleno a los enlaces */
+    border-radius: 5px; /* Añadir bordes redondeados */
+    transition: background-color 0.3s; /* Agregar transición para un cambio suave */
+  }
+  
+  .navbar__link:hover {
+    background-color: #fff; /* Cambiar el color de fondo al pasar el cursor */
+    color: #EE7C48; /* Cambiar el color del texto al pasar el cursor */
+  }
+main{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: top;
+    width: 100%;
+    height: 100vh;
+    font-weight: bold;
+    margin-top: 100px;
+}
+
+.left{
+    background-color: #EE7C48;
+    border-radius: 10px;
+    height: 65%;
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    padding-left: 5%;
+}
+
+.left-list{
+    height: 100%;
+}
+
+.left-list-one{
+    display: flex;
+    flex-direction: row;
+    margin-top: 10vh;
+    margin-bottom: 15vh;
+    gap: 20px;
+}
+
+.left-list-two{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 20px;
+}
+
+.left-title{
+    font-size: 30px;
+}
+
+.left-item:hover{
+    cursor: pointer;
+    color: #fff;
+}
+
+.switch {
+    display: none;
+}
+
+.switch-label {
+    display: block;
+    width: 60px; /* Ajustamos el ancho para que quepa el texto */
+    height: 20px;
+    background-color: #ccc;
+    border-radius: 20px;
+    position: relative;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    text-align: center; /* Centramos el texto */
+    line-height: 20px; /* Alineamos verticalmente el texto */
+}
+
+.switch-label::after {
+    content: attr(data-off); /* Mostramos el texto "Off" por defecto */
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: #fff;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: transform 0.3s;
+}
+
+.switch:checked + .switch-label {
+    background-color: #6ab04c;
+}
+
+.switch:checked + .switch-label::after {
+    content: attr(data-on); /* Cambiamos el texto a "On" cuando está activado */
+    transform: translateX(40px); /* Ajustamos la posición del texto */
+}

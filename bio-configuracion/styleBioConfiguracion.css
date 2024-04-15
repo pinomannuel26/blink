@@ -58,102 +58,72 @@
   }
 main{
     display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: top;
     width: 100%;
     height: 100vh;
-
+    font-weight: bold;
+    margin-top: 100px;
 }
 
-.container{
+.left{
+    background-color: #EE7C48;
+    border-radius: 10px;
+    height: 65%;
+    width: 30%;
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
+    padding-left: 10%;
+}
+
+.rigth{
+    background-color: #EE7C48;
+    border-radius: 10px;
+    height: 30%;
+    width: 30%;
+    padding-left: 5%;
+}
+
+.left-list{
     height: 100%;
 }
 
-.top{
-    background-color: #F8C18B;
-    width: 100%; /* Ancho del div al 100% del ancho del contenedor */
-    height: 5%; /* Altura del div al 10% del alto del contenedor */
-}
-.bot{
-    width: 100%; /* Ancho del div al 100% del ancho del contenedor */
-    height: 100%; /* Altura del div al 10% del alto del contenedor */
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    margin-top: 50px;
-    gap: 30px;
-}
-.bio{
+.left-list-one{
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    background-color: #EE7C48;
-    height: 12%;
-    width: 30%; /* Ancho del div al 100% del ancho del contenedor */
-    border-radius: 10px;
-    font-weight: bold;
+    margin-top: 10vh;
+    margin-bottom: 15vh;
+    gap: 20px;
 }
-.container_info{
+
+.left-list-two{
     display: flex;
     flex-direction: column;
     align-items: start;
-    background-color: #EE7C48;
-    width: 25%; /* Ancho del div al 100% del ancho del contenedor */
-    border-radius: 10px;
-    height: 60%;
-    padding: 20px;
+    gap: 20px;
 }
 
-.info{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    background-color: #EE7C48;
-    width: 100%; /* Ancho del div al 100% del ancho del contenedor */
-    border-radius: 10px;
-    height: 100%;
-    
+.left-title{
+    font-size: 30px;
 }
 
-.item-info{
-    display: flex;
-    flex-direction: column;
-    font-weight: bold;
+.left-item{
+    color: #000;
+    text-decoration: none;
 }
 
-.item-info-name{
-    display: flex;
-    flex-direction: row;
-    font-weight: bold;
-    width: 100%;
-    justify-content: space-between;
-}
-
-.item-nombre{
-    display: flex;
-    flex-direction: column;
-}
-
-.btnEditar{
-    color: #fff;
-    border-radius: 5px;
-    text-decoration: none; 
-}
-
-.btnEditar:hover{
-    background-color: #fff;
-    color: #EE7C48;
+.left-item:hover{
     cursor: pointer;
+    color: #fff;
 }
-.imgPerfil{
-    width: 100px;
-    height: 100px;
-    margin-left: 50px;
+.rigth-list-one{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 20px;
+}
+
+.rigth-title{
+    font-size: 30px;
 }
